@@ -31,7 +31,8 @@ your migration file. Once you have a migration file add columns like so:
 |`lead`|\(string\)|
 |`in_theaters`|\(boolean\)|
 
-After your migration is ready run `rake db:migrate` to
+After your migration is ready run 'rake db:migrate' to
+		
 migrate your table and `rake db:migrate SINATRA_ENV=test` to migrate a test
 database so you will be able to run `learn`
 
